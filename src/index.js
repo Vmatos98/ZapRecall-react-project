@@ -1,7 +1,9 @@
 import ReactDOM from "react-dom";
 import Main from "./Main";
 import Footer from "./Footer";
+
 function App(){
+    
     return(
         <>
             <Main/>
