@@ -1,0 +1,37 @@
+body{
+    background-color: #FB6B6B;
+}
+.root{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    position: absolut;
+    height: 100vh;
+    width: 85vw;
+    max-width: 500px;
+    background-color: aqua;
+}
+.home{
+    display:block;
+}
+.home img{
+    position: absolute;
+    top: 25%;
+    width: 55px;
+    height: 65px;
+    left: calc(50% - 28px);
+}
+.home p{
+    position: absolute;
+    width: 152px;
+    left: calc(50% - 76px);
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    color: white;
+}
