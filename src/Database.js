@@ -1,6 +1,6 @@
-export const decks = [
-    {
-        name: 'React',
+
+export const decks = {
+    React:{
         data: [
             {
                 question: 'O que é JSX?',
@@ -37,8 +37,7 @@ export const decks = [
         
         ]
     },
-    {
-        name: 'Javascript',
+    Javascript:{
         data: [
         {
             question: '',
@@ -47,4 +46,13 @@ export const decks = [
         
         ]
     }
-]
+}
+export const zapStatus={
+    green:{icon: <ion-icon style={{color: '#2FBE34'}} name="checkmark-circle-sharp"></ion-icon>, class:"zap"},
+    orange:{icon: <ion-icon style={{color: '#FF922E'}} name="help-circle"></ion-icon>, class:"almost"},
+    red:{icon: <ion-icon style={{color: '#FF3030'}} name="close-circle-sharp"></ion-icon>, class:"fail"}
+}
+export const finish={
+    zap:{title: "PARABÉNS!", message: "Você não esqueceu de nenhum flashcard!" },
+    fail:{title: "PUTZ!", message: "Ainda faltaram alguns...Mas não desanime!" }
+}
