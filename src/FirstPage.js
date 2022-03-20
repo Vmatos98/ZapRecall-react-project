@@ -4,9 +4,12 @@ import {Finish} from "./Finish"
 import {Footer} from "./Footer"
 import logo from "./assets/logo-pequeno.png"
 import seta from "./assets/setinha.png"
+const data = decks.React.data;
+console.log(data);
+data.sort(shuffler);
 export default function FirstPage(){
-    const data = decks.React.data;
-    data.sort(shuffler);
+    
+    console.log(data);
     let winStatus = false;
     const [count, setCount] = React.useState(0);
     const [allStatus, setAllStatus]= React.useState([]);

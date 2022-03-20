@@ -18,6 +18,7 @@ export function Finish(props){
                 {status.map(item => <li>{zapStatus[item].icon}</li>)}
             </ul>    
             </div>
+            <button onClick={()=>window.location.reload()}>REINICIAR RECALL</button>
         </section>
     )
 }

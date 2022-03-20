@@ -4,7 +4,9 @@
 * {
     box-sizing: border-box;
 }
-
+button{
+    border:none!important;
+}
 body{
     background-color: #FB6B6B;
 }
@@ -219,7 +221,7 @@ footer .icons ul li, .finish .icons ul li{
     position: fixed;
     bottom: 0vh;
     left:0;
-    height:20%;
+    height:30%;
     width: 100vw;
     text-align: center;
     background-color: #FFFFFF;
@@ -247,6 +249,18 @@ footer .icons ul li, .finish .icons ul li{
 .finish .title img{
     margin-right: 10px;
     width:30px;
+}
+.finish button{
+    margin-top: 10px;
+    background: #FB6B6B;
+    border-radius: 10px;
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    width: 50%;
+    height:20%;
+    color: #FFFFFF;
 }
 .hidden{
     display: none;
